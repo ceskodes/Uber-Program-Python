@@ -9,3 +9,9 @@ class CarBasic(Car):
         super().__init__(id, license, driver, passenger)
         self.brand = brand
         self.model = model
+    
+    def get_brand(self):
+        return self.brand
+
+    def get_model(self):
+        return self.model
