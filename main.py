@@ -14,6 +14,8 @@ import random
 
 if __name__ == "__main__":
 
+    # Variables auxiliares
+
     program_activated = 0
     payment_process = 0
     driver_exist = False
